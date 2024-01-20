@@ -1,0 +1,62 @@
+html {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-align: center;
+    max-width: 75ch;
+    margin: 0 auto;
+    background: rgb(205, 184, 131);
+}
+
+p {
+    line-height: 1.5;
+}
+
+.site-header {
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+
+.site-nav ul {
+        background-color: rgb(233, 189, 109);
+        list-style: none;
+        border: 0.1em solid black;
+}
+    
+.site-nav li {
+        font-size: 2em;
+        line-height: 1.5;
+        padding: 0.5em;
+        display: inline-block;
+}
+    
+.site-nav a {
+        text-decoration: solid;
+        color: rgb(54, 8, 54);
+}
+
+article {
+    background: rgb(219, 245, 168);
+    padding: 5px;
+    margin: auto;
+    border: 0.1em solid black;
+}
+
+a {
+    font-weight: bold;
+}
+
+.site-footer {
+    background-color: rgb(233, 189, 109);
+    color: rgb(54, 8, 54);
+    font-size: 1.5em;
+    border: 0.1em solid black;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#underline {
+    text-decoration: underline;
+}
