@@ -1,0 +1,45 @@
+body {
+    padding: 0 2em;
+    background-color: beige;
+}
+
+nav ul {
+    background-color: #014c01;
+    text-align: center;
+    list-style: none;
+}
+
+nav li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #ea0c0c;
+}
+
+.site {
+    max-width: 50em;
+    padding: 2em;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.site h1 {
+    padding: 0.5em 0;
+}
+
+.site article footer p {
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+}
