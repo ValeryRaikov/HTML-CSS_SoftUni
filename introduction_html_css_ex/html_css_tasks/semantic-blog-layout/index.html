@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Semantic Blog Layout</title>
+</head>
+
+<body>
+    <header>
+        <h1>Developer News</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">JavaScript</a></li>
+            </ul>
+        </nav>
+
+        <div class="align-right">
+            <img class="logo" src="data:image/png;base64,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" alt="logo">
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>HTML</h2>
+
+            <article>
+                <h4>New feature: JPEG XL image format</h4>
+
+                <p>JPEG XL image format is a modern image format optimized for web environments. JPEG XL generally has
+                    better compression than WebP, JPEG, PNG and GIF and is designed to supersede them.</p>
+
+                <p>Learn more at: <a
+                        href="https://en.wikipedia.org/wiki/JPEG_XL">https://en.wikipedia.org/wiki/JPEG_XL</a></p>
+
+                <p>By The HTTP Working Group. Published January 23rd</p>
+            </article>
+
+            <article>
+                <h4>New feature: Cookie Store API</h4>
+
+                <p>Cookie Store API is a JS API for reading and modifying cookies. Compared to the existing
+                    `document.cookie` method, the API provides a much more modern interface, which can also be used in
+                    service workers.</p>
+
+                <p>Learn more at: <a
+                        href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/CookieStore">https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/CookieStore</a>
+                </p>
+
+                <p>By Joshua Bell. Published December 15th</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>JavaScript</h2>
+
+            <article>
+                <h4>Billboard.js 3.0: The D3.js-Powered Chart Library</h4>
+
+                <p>Billboard.js is a popular library supporting a whole range of chart types out of the box (bar, line,
+                    areas, donuts, radars, and various hybrids) – 3.0 brings candlestick / OHLC chart support (often
+                    used in financial contexts) and supports D3.js v6.</p>
+
+                <p>Learn more at: <a
+                        href="https://github.com/naver/billboard.js">https://github.com/naver/billboard.js</a></p>
+
+                <p>By Jae Sung Park. Published March 24th</p>
+            </article>
+
+            <article>
+                <h4>Nine JavaScript and TypeScript ORMs</h4>
+
+                <p>A roundup, complete with code examples, showing off a variety of tools like Knex.js, Mongoose,
+                    TypeORM, Waterline, and Bookshelf.</p>
+
+                <p>Learn more at: <a
+                        href="https://www.sitepoint.com/javascript-typescript-orms/">https://www.sitepoint.com/javascript-typescript-orms/</a>
+                </p>
+
+                <p>By Michael Wanyoike. Published March 31rd</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2021 DeveloperNewsPortal.info</p>
+
+        <p>Please contact <a href="#">Troy McClure</a> for questions about these articles.</p>
+    </footer>
+</body>
+
+</html>
