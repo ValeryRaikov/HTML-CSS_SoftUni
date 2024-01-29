@@ -1,0 +1,17 @@
+main {
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.new {
+    position: absolute;
+    top: -200px;
+    right: 150px;
+}
