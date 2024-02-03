@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.2 Helvetica, sans-serif;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+    max-width: 15vw;
+    height: 35rem;
+    margin: 2em;
+}
+
+span {
+    border: 1px solid black;
+    padding: 1.5em;
+}
+
+span:nth-child(1) {
+    order: 2;
+}
+
+span:nth-child(2) {
+    order: 3;
+}
+
+span:nth-child(3) {
+    order: 4;
+}
+
+span:nth-child(4) {
+    order: 7;
+}
+
+span:nth-child(5) {
+    order: 12;
+}
+
+span:nth-child(6) {
+    order: 11;
+}
+
+span:nth-child(7) {
+    order: 6;
+}
+
+span:nth-child(8) {
+    order: 9;
+}
+
+span:nth-child(9) {
+    order: 10;
+}
+
+span:nth-child(10) {
+    order: 8;
+}
+
+span:nth-child(11) {
+    order: 1;
+}
+
+span:nth-child(12) {
+    order: 5;
+}

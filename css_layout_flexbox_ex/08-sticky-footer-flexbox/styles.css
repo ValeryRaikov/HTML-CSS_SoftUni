@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+}
+
+.site-header {
+    flex: 0 0 100%;
+}
+
+.site-main {
+    flex: 0 0 100%;
+    padding: 1.5em;
+}
+
+.site-footer {
+    flex: 0 0 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
+
+.site-title {
+    font-size: 3em;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    padding: 0.5em;
+}
+
+.site-footer > p {
+    padding: 0.5em 1.5em;
+}

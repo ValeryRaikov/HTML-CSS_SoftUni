@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+h2 {
+    font: 1.8em/1.2 Georgia, serif;
+}
+
+section {
+    display: flex;
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: 2em auto;
+}
+
+article {
+    background-color: #eee;
+    max-width: 300px;
+    border: 2px solid #000;
+    padding: 1em;
+    box-shadow: 1em 1em 1em 0 rgb(0, 0, 0, 0.5);
+}
+
+article:hover {
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.5) inset; 
+}
+
+article h2:hover{
+    font-weight: bold;
+}
