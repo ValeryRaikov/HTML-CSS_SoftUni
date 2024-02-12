@@ -1,0 +1,76 @@
+@media (max-width: 700px) {
+    .container {
+        display: block;
+    }
+
+    aside, main {
+        width: 100%;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom: 1em;
+}
+
+p {
+    padding-bottom: 0.5em;
+}
+
+.fakeimg {
+    width: 100%;
+    background-color: #aaa;
+    padding: 1em;
+}
+
+header {
+    background-color: #1ABC9C;
+    color: #fff;
+    padding: 3em;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 0.5em 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #fff;
+    padding: 0 1em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+aside {
+    width: 35%;
+    background-color: #eee;
+    padding: 1em;
+}
+
+main {
+    width: auto;
+    background-color: #fff;
+    padding: 1em;
+}
+
+footer {
+    background-color: #ddd;
+    color: #000;
+    text-align: center;
+    padding: 1em;
+}

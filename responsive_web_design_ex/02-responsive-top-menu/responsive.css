@@ -1,0 +1,108 @@
+@media screen and (max-width: 500px) {
+    body {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    header nav ul a {
+        display: block;
+        padding-left: 5px;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+}
+
+header, aside, main, footer {
+    background-color: lightblue;
+    border-radius: 0.5em;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em;
+    flex-basis: 100%;
+}
+
+header .title {
+    font-size: 3em;
+    font-weight: bold;
+    padding: 1em 0.5em;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    list-style: none outside;
+}
+
+header nav ul a {
+    text-decoration: none;
+    font-size: 1.8em;
+    color: darkcyan;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    flex-basis: 30%;
+}
+
+aside ul {
+    list-style: none outside;
+    padding: 1em;
+}
+
+aside ul li {
+    padding-bottom: 0.5em;
+}
+
+aside ul a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+main {
+    flex-basis: calc(70% - 1em);
+}
+
+main h2 {
+    font-size: 2.5em;
+    padding: 1em 0.5em;
+}
+
+main ul {
+    margin: 0 0 1.5em 3em;
+}
+
+main ul li {
+    font-size: 1.2em;
+}
+
+footer {
+    flex-basis: 100%;
+}
+
+footer p {
+    font-size: 1.2em;
+    padding: 0.5em;
+}
