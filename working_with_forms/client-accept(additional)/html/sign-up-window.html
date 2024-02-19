@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/pages/sign-up-window-styles.css">
+    <title>Sign-up</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>Welcome to sign up process</h2>
+
+            <p>Fill in the following fields...</p>
+        </header>
+
+        <form action="#">
+            <div class="field">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" required placeholder="e.g. Andrew">
+            </div>
+
+            <div class="field">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" required placeholder="e.g. Jameson">
+            </div>
+
+            <div class="field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required placeholder="e.g. vraykov@gmail.com">
+            </div>
+
+            <div class="field">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required placeholder="8-16 characters" minlength="8" maxlength="16">
+            </div>
+        </form>
+
+        <p class="underline">*You have to agree to the following rules to finish sign up process!</p>
+
+        <form action="#">
+            <input type="checkbox" id="rule1">
+            <label for="rule1">I agree to the terms of use of this blog.</label>
+
+            <input type="checkbox" id="rule2">
+            <label for="rule2">I agree to give access to my data while using this blog.</label>
+
+            <input type="checkbox" id="rule3">
+            <label for="rule3">I agree to receive notifications from this blog.</label>
+        </form>
+
+        <div class="choice">
+            <a href="../html/main-window.html">Cancel</a>
+            <input type="submit" value="Sign up">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+@import url("../base/reset.css");
+@import url("../base/typography.css");
+@import url("../base/responsive.css");
+
+@import url("../components/container.css");
+@import url("../components/container-header.css");
+@import url("../components/choice-section.css");
+@import url("../components/container-form-first.css");
+
+.container .underline {
+    text-decoration: underline;
+}
+
+.container form:nth-of-type(2) {
+    flex: 1 0 100%;
+    padding-left: 2em;
+}
+
+input:checked + label {
+    border: none;
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+}

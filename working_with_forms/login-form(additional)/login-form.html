@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <form action="#">
+        <div class="field">
+            <label for="input-email">Email</label>
+            <input type="email" required placeholder="e.g. vraykov@gmail.com" id="input-email">
+            <span class="required">* required</span>
+        </div>
+
+        <div class="field">
+            <label for="input-password">Password</label>
+            <input type="password" required placeholder="8-16 characters" minlength="8" maxlength="16" id="input-password">
+            <span class="required">* required</span>
+        </div>
+
+        <input type="submit" value="Log in">
+    </form>
+</body>
+
+</html>

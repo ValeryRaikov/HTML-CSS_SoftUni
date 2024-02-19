@@ -1,0 +1,13 @@
+@import url("../base/reset.css");
+@import url("../base/typography.css");
+@import url("../base/responsive.css");
+
+@import url("../components/container.css");
+@import url("../components/container-header.css");
+@import url("../components/choice-section.css");
+@import url("../components/container-form-first.css");
+
+.container {
+    flex-direction: column;
+    gap: 2em;
+}

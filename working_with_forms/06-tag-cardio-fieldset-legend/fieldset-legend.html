@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6.Tag Cardio: Fieldset Legend</title>
+
+    <!-- Simple styling -->
+    <style>
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            background-color: #eee;
+        }
+
+        label {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 0.3em;
+        }
+
+        input[type*="text"] {
+            width: 90%;
+            padding: 0.5em 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <label for="first-name">First name:</label>
+            <input type="text" placeholder="write something" id="first-name">
+
+            <label for="last-name">Last name:</label>
+            <input type="text" placeholder="here as well" id="last-name">
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+html {
+    font: 16px/1.5 Lato, sans-serif;
+}
+
+body, input, button {
+    font: inherit;
+}
+
+body {
+    background-color: #eee;
+    margin: 2em auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 1em 0;
+    line-height: 1.2;
+}
+
+p {
+    padding-bottom: 0.5em;
+    line-height: 1.5;
+}
