@@ -1,0 +1,22 @@
+.site-aside {
+    flex: 0 0 27.5%;
+    margin: 0 auto;
+}
+
+.site-aside ul {
+    margin-top: 0.5em;
+    margin-left: 2em;
+}
+
+.site-aside a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.site-aside .play-button {
+    max-width: 20%;
+}
+
+.site-aside p {
+    padding: 0.6em;
+}

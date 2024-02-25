@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/pages/styles_about.css">
+    <link rel="icon" href="../images/site-logo.png">
+    <title>Vapeshop</title>
+</head>
+
+<body>
+    <div class="site">
+        <header class="site-header">
+            <p class="site-title">Randm Tornado 7000 puffs</p>
+
+            <img class="site-logo" src="../images/site-logo.png" alt="">
+
+            <nav class="site-nav-bar">
+                <ul>
+                    <li><a href="../html/vapeshop_home.html">Home</a></li>
+                    <li><a href="../html/vapeshop_products.html">Products</a></li>
+                    <li><a href="../html/vapeshop_about.html">About</a></li>
+                    <li><a href="../html/vapeshop_contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="site-main">
+            <h2>Научете повече за нас...</h2>
+
+            <div class="choices">
+                <div class="block" onclick="visualiseProducts()">
+                    <p class="title">Продукти</p>
+
+                    <img src="../images/about/products.jpg" alt="">
+                </div>
+
+                <div id="hiddenContent1" class="hidden">
+                    <p>Продуктите на RandM Tornado 7000 биват доставени за България от Китай след многократни тестове и
+                        проби, доказващи техния произход и качество. В нашата страна те отново преминават различни
+                        тестове, които да удостоверят годността им за употреба, след което получават необходимия
+                        сертификат за продажба и намират своето място на различни пазари, включително и в този онлайн
+                        магазин, който всъщност е и основият сайт на фирмата вносител. Вейповете са безвредни за
+                        здравето
+                        като единствено не се препоръчват за бременни и хора с астма и дихателни проблеми.</p>
+                </div>
+
+                <div class="block" onclick="visualiseTeam()">
+                    <p class="title">Екип</p>
+
+                    <img src="../images/about/team.webp" alt="">
+                </div>
+
+                <div id="hiddenContent2" class="hidden">
+                    <p>Екипът ни се състои от 3 момчета, които заедно водим 'бизнеса'. Всеки един от нас изпълнява
+                        конкретни задачи и с общи усилия се разрастваме и стремим към постоянно подобрение. 
+                        Всичко започна на шега, а ето че сега вече е цяла индустрия, от която няма излизане...</p>
+
+                    <img src="../images/about/team_us.jpg" alt="">
+
+                    <p class="align-center">Ивайло Йорданов | Филип Найденов | Валери Райков</p>
+                </div>
+
+                <div class="block" onclick="visualiseActivity()">
+                    <p class="title">Дейност</p>
+
+                    <img src="../images/about/activities.webp" alt="">
+                </div>
+
+                <div id="hiddenContent3" class="hidden">
+                    <p>Извиняваме се, но все още не е въведена информация за тази секция!</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="../script/visualise.js"></script>
+</body>
+
+</html>

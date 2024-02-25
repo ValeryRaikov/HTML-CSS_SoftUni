@@ -1,0 +1,13 @@
+@import url("../base/reset.css");
+@import url("../base/typography.css");
+
+@import url("../components/site-header.css");
+
+@import url("../elements/contact/link-with.css");
+
+.site-main .more {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    padding: 2em 0;
+}
